@@ -1,0 +1,21 @@
+{
+  "name": "Keyword Generator",
+  "version": "2.1",
+  "icons": {
+    "16": "icons/keyworder16.png",
+    "48": "icons/keyworder48.png",
+    "128": "icons/keyworder128.png"
+  },
+  "description": "Verify the meta title against the name of a Basic Invite product, then utilize that information, the search category, and the provided keywords to auto-fill the meta keywords field.",
+  "permissions": ["activeTab", "contextMenus"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.basicinvite.com/index.php*"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
