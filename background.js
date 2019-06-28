@@ -23,6 +23,6 @@ function passTorch() {
 chrome.contextMenus.create({
     "title": "Generate Keywords",
     "contexts": ["page"],
-    "documentUrlPatterns": ["https://www.basicinvite.com/index.php*"],
+    "documentUrlPatterns": ["<all_urls>"],
     "onclick": passTorch
 });
