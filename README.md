@@ -13,4 +13,5 @@ Upon entering your desired keywords, the extension will read A) the name, B) int
 It will then use that information to do two things:
 
 1) Verify that the meta title is consistent with internal standards ("Name by Basic Invite")
-2) Iterate over your inputted keywords
+2) Fill the meta keywords section of the page with keywords in the format "Product Name, search category, keyword search category, keyword"
+until all keywords have been iterated over.
